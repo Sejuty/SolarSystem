@@ -209,7 +209,7 @@ const cameras = planets.map((planet, index) => {
     0.1, // near
     1000 // far
   );
-  camera.position.set(0, 10, 0);
+  camera.position.set(0, 0, 0);
   return camera;
 });
 
