@@ -60,7 +60,7 @@ This project is a 3D visualization of the solar system built using [Three.js](ht
 - **resources/solar-system/**: Folder containing the texture images for the Sun and planets.
 
 ### Planet View
-![Planet View](./resources/solar-system/view_from_mars.jpg)
+![Planet View](./resources/solar-system/initial_view.jpg)
 
 ## Dependencies
 
