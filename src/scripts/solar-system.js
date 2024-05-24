@@ -11,6 +11,7 @@ import saturnSurface from "../../resources/solar-system/saturn.jpg";
 import saturnRingTexture from "../../resources/solar-system/saturn ring.png";
 import uranusSurface from "../../resources/solar-system/uranus.jpg";
 import neptuneSurface from "../../resources/solar-system/neptune.jpg";
+import { TrackballControls } from "three/examples/jsm/Addons.js";
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
@@ -183,7 +184,7 @@ const initialView = document.getElementById("initial");
 initialView.addEventListener("click", () => {
   orbit.dispose();
   camera = initial;
-  orbit = new OrbitControls(camera, renderer.domElement);
+  orbit = new TrackballControls(camera, renderer.domElement);
   orbit.update();
 });
 
